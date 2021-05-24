@@ -35,11 +35,12 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=prettyGraphs
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Simple and crisp publication-quality graphics for the ExPosition family of packages.
     See An ExPosition of the Singular Value Decomposition in R (Beaton et al 2014) <doi:10.1016/j.csda.2013.11.006>.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
