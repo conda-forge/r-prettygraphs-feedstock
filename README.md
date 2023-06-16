@@ -1,11 +1,11 @@
-About r-prettygraphs
-====================
+About r-prettygraphs-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prettygraphs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=prettyGraphs
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prettygraphs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple and crisp publication-quality graphics for the ExPosition family of packages. See An ExPosition of the Singular Value Decomposition in R (Beaton et al 2014) <doi:10.1016/j.csda.2013.11.006>.
 
