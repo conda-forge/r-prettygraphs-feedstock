@@ -1,4 +1,4 @@
-{% set version = '2.1.6' %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/prettyGraphs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/prettyGraphs/prettyGraphs_{{ version }}.tar.gz
-  sha256: fece08924fc7ed05ec419afa14a2216a2bb23d9da5ed3fc61472d6e45be7577a
+  sha256: 26a80afa54c1dc62800b9ba7a3c3fa05f7b0b1aa7fb652e9ef0ed9f5304e466d
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -34,8 +34,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=prettyGraphs
   license: GPL-2.0-only
-  summary: Simple and crisp publication-quality graphics for the ExPosition family of packages.
-    See An ExPosition of the Singular Value Decomposition in R (Beaton et al 2014) <doi:10.1016/j.csda.2013.11.006>.
+  summary: Simple and crisp publication-quality graphics for the ExPosition family of packages. See An ExPosition of the Singular Value Decomposition in R (Beaton et al 2014) <doi:10.1016/j.csda.2013.11.006>.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
